@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  justify-content:  center;
+  margin-top: 33vh;
+  background-color: rgb(170, 170, 170);
+}
+
+.header {
+  text-align: center;
+  margin-top: 0%;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  cursor: pointer;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.drum-pad {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 3px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(69, 175, 224);
+}
+
+#display {
+display: block;
+text-align: center;
+background-color: bisque;
+}
